@@ -18,10 +18,10 @@ Navigate to the project Directory
 cd github-user-activity
 ```
 
-Make executable
+Install dependencies
 
 ```bash
-sudo chmod +x bin/index.js
+npm i
 ```
 
 Link
