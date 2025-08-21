@@ -2,10 +2,24 @@
   "name": "github-user-activity",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "github-activity": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [
+    "cli",
+    "github",
+    "activity"
+  ],
+  "author": "adarsh",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "inquirer": "^12.9.3"
+  }
 }
